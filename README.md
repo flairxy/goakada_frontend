@@ -1,4 +1,4 @@
-# gokada fronend
+# gokada frontend
 
 The frontend was developed with vuejs.
 
