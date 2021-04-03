@@ -1,32 +1,24 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+  <div class="bg-grey">
+    <!-- <Map /> -->
+    <div class="mb-10"></div>
+
+    <Map />
   </div>
 </template>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+import Map from "./components/Map";
+export default {
+  components: {
+    Map,
+  },
+};
+</script>
+<style>
+.bg-grey {
+  background-color: rgb(170 169 167 / 16%);
 }
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+.mb-10 {
+  margin-bottom: 10px;
 }
 </style>
