@@ -1,8 +1,6 @@
 <template>
   <div class="bg-grey">
-    <!-- <Map /> -->
     <div class="mb-10"></div>
-
     <Map />
   </div>
 </template>
